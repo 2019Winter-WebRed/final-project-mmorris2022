@@ -1,0 +1,69 @@
+/* Name:Maggie Morrs
+*  Date: May 30th, 2019
+*  Final Project */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style-position: inside;
+    padding: 5px;
+}
+body {
+     width: 103%;/*Liquid format */
+    background-color: white;
+    margin: 15px auto;
+    border: 1px solid black;
+    background-color: lightblue;
+    color: white;
+}
+a:link, a:visited {color:darkblue;} /* The color stays dark blue no matter if you have visited it or not */
+
+h1,h2 {
+    padding: 2px;
+        text-align: center;
+}
+h3 {
+    padding: 5px;
+}
+
+header {
+    border-bottom: 2px solid white;
+    padding: 10px;
+}
+
+#sidebarA {
+    width: 25% ;
+    height: 800px;
+    float: left;
+    border-right: 2px solid white;
+    padding: 10px
+}
+
+main {
+    width: 43%;
+    height: 800px;
+    float: left;
+    padding: 10px;
+}
+
+#earheart {
+    width: 95%;
+    border: 3px solid white;
+}
+
+#sidebarB {
+    width: 25%  ;
+    height: 800px;
+    float: right;
+    border-left: 2px solid white;
+    padding: 10px;
+}
+Footer {
+    clear: both;
+    border-top: 2px solid white;
+    height: 200px;
+    padding: 10px;
+}
